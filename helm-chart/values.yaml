@@ -17,8 +17,8 @@ service:
   nodePort: 30649
   
 color:
-   circle: Green
-   oval: Yellow
-   triangle: Red
-   rectangle: Blue
-   square: Pink    
+   circle: green
+   oval: yellow
+   triangle: red
+   rectangle: blue
+   square: pink    
