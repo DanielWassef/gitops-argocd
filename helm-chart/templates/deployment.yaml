@@ -22,7 +22,6 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          replicas: 3
           envFrom:
           - configMapRef:
               name: {{ .Release.Name }}-configmap
