@@ -1,4 +1,4 @@
-replicaCount: 3
+replicaCount: 1
 
 image:
   repository: siddharth67/php-random-shapes:v1
@@ -11,13 +11,13 @@ nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: NodePort
+  type: ClusterIP
   port: 80
   targetPort: 80
   nodePort: 30649
   
 color:
-   circle: pink
+   circle: black
    oval: black
    triangle: black
    rectangle: black
